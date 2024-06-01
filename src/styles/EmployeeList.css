@@ -1,0 +1,21 @@
+.emp-list-comp {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+h4 {
+  flex: 1;
+}
+
+.emp-list-close {
+  position: absolute;
+
+  top: 15px;
+  right: 20px;
+}
+
+.emp-list-close:hover {
+  cursor: pointer;
+  background-color: red;
+}

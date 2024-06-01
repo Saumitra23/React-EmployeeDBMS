@@ -1,0 +1,31 @@
+.emp-form {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-color: gray;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px;
+}
+
+input {
+  cursor: pointer;
+  width: 200px;
+  margin: 30px 40px 0 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#submit {
+  margin: 30px auto;
+  border-radius: 10px;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(156, 145, 145);
+}
